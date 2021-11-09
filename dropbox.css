@@ -1,0 +1,304 @@
+body{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.nav-bar{
+    height: 60px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    background-color: white; 
+    
+}
+
+#menu{
+    display: inline-block;
+    justify-content: space-around;
+}
+.horizontal{
+	list-style: none;
+	padding-left: 0px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    
+}
+
+
+.horizontal li a{
+	
+	text-decoration: none;
+	font-size: 14px ;
+	margin-left:6px;
+    margin-right:6px;
+	color: rgb(7, 7, 7);
+	font-weight: 10;
+    vertical-align: middle;
+
+}
+
+.dropbtn{
+        
+        text-decoration: none;
+        font-size: 15px ;
+        font-weight: 8;
+        vertical-align: middle;
+        border: none;
+        padding: 10px;
+    
+    }
+
+/*  Dropdown */
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+      margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 230px;
+    z-index: 1;
+    
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    
+    padding: 4px 4px;
+    text-decoration: none;
+    display: block;
+    height: 18px;
+    font-size: 10px ;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    background-color: rgb(252, 245, 245);
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(233, 226, 226)}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover{background-color: rgb(233, 226, 226);}
+
+  .dropbtn{
+      background-color: inherit;
+      height: inherit;
+  }
+
+.right{
+      margin-left: 420px;
+  }
+
+  .blue-box{
+      background-color: #0061FE;
+      color: white;
+  }
+
+
+
+
+  /* BOX */
+
+.box{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+.left-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#blue-box-2{
+    background-color: #0061FE;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+#blue-box-2 i{
+    margin-left: 500px;
+}
+
+#upper{
+    height: 60%;
+    background-color: rgb(247, 244, 244);
+    padding: 30px;
+    padding-bottom: 2px;
+}
+#lower{
+    margin-top: 0px;
+    background-color: rgb(233, 226, 226);
+    height: auto;
+    padding: 50px;
+    text-align: center;
+
+}
+
+
+.right-box{
+    width: 50%;    
+    display: flex;
+    height: 545px;
+    flex-direction: column;
+    background-color: #BE4B0A;
+
+}
+
+#upper2{
+    top:0px;
+
+    
+    
+    
+}
+#upper2 img{
+    object-fit: contain;
+    height: 275px;
+    width: 100%;
+}
+
+main{
+  height: fit-content;
+  padding-top: 60px;
+  flex-wrap: wrap;
+}
+
+.icons-img img{
+  box-shadow: 5px 10px 8px #888888;
+  margin-bottom: 30px;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    margin-left: 50px;
+}
+/*div{
+  display:inline-block;
+  float:left;
+  color:#fff;
+  font-size:40px;
+}*/
+
+#one{
+  width: 50%;
+  height: fit-content;
+  color: black;
+}
+
+#two{
+  width: 50%;
+  height: fit-content;
+  
+}
+
+
+#three{
+  height: 50%;
+  
+}
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 100%;   
+  
+  background-color: black;
+   
+}
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 50%;   
+  height: 570px;
+  background-size: cover; 
+  background-repeat: no-repeat;
+   
+}
+.column2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.column2 a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer{
+  flex: none;
+  display: block;
+  /*background-color: black;*/
+}
+
+
+
+.footer1{
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  /*padding-right: 10px;*/
+
+}
+
+.column {
+  float: left;
+  width: 20%;
+  
+  height: 520px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
